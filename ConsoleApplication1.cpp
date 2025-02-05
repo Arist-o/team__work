@@ -13,7 +13,7 @@ int main()
     cout << R"( Виберіть мінігру зі списку 
                                 1 вгадай число(Dima)
                                 2 підкидування копійки(Artur)
-                                3 камінь-ножиці-папір(Sasha)      )" << endl;
+                                3 камінь-ножиці-папір(Sasha)              )" << endl;
     cin >> variant;
     switch (variant)
     {
