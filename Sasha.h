@@ -27,14 +27,14 @@ void shasha_function() {
         cout << endl;
 
         if (uC == cC) {
-            cout << "Нічия!" << endl;
+            cout << "Нічия." << endl;
         }
         else if ((uC == 1 && cC == 2) ||
             (uC == 2 && cC == 3) ||
             (uC == 3 && cC == 1)) {
-            cout << "Ви виграли!" << endl;
+            cout << "Ви виграли." << endl;
         }
         else {
-            cout << "Ви програли!" << endl;
+            cout << "Ви програли." << endl;
         }
     }
