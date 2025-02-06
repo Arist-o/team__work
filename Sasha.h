@@ -8,7 +8,7 @@ void shasha_function() {
         srand(time(0));
         int uC, cC;
 
-        cout << "Оберіть: 1 - Камінь, 2 - Ножиці, 3 - Папір:  ";
+        cout << "Оберіть: 1 - Камінь, 2 - Ножиці, 3 - Папір: ";
         cin >> uC;
 
         if (uC < 1 || uC > 3) {
