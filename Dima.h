@@ -40,7 +40,7 @@ void dima_function() {
         secretNumber = rand() % maxNumber + 1;
         attempts = 0;
 
-        cout << "Я загадав число від 1 до " << maxNumber << ". Спробуй його вгадати!\n";
+        cout << "Я загадав число від 1 до " << maxNumber << ". Спробуй його вгадати!       \n";
 
         do {
             cout << "Введи свою спробу: ";
